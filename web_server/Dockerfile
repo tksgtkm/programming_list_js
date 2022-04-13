@@ -1,2 +1,2 @@
 FROM nginx
-COPY businnes_card /usr/share/nginx/html
+COPY business_card2 /usr/share/nginx/html
