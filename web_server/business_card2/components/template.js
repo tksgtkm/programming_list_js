@@ -14,10 +14,10 @@ export default {
 
   html(p) {
     return `
-      <div classs="logo-picker">Logo: ${this.options(p.logoChoices)}</div>
-      <div class="background-picker">Background: ${this.options(p.backgroundChoices)}</div>
-      <div class="biz-card">
-        <div class="logo"></div>
+      <div classs="logo-picker">Logo: ${this.options(p.logoChoices, 'logoPicker')}</div>
+      <div class="background-picker">Background: ${this.options(p.backgroundChoices, 'backgroundPicker')}</div>
+      <div class="biz-card" cache="background">
+        <div class="logo" cache="logo"></div>
         <div class="top-text">
           <h1>${p.first_name} ${p.last_name}</h1>
           <h3>${p.title}</h3>
