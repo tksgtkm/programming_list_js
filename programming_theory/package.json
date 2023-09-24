@@ -2,15 +2,16 @@
   "name": "programming_theory",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
-    "@types/node": "^20.3.1",
-    "typescript": "^5.1.3"
-  }
+    "@types/node": "^20.6.5",
+    "typescript": "^5.2.2"
+  },
+  "description": ""
 }
