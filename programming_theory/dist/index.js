@@ -1,3 +1,3 @@
 "use strict";
-const message = "Hello world";
+const message = "Hey!!";
 console.log(message);
