@@ -2,7 +2,24 @@
 
 javascript プログラミング集
 
-# web_server 説明
+## js_ts_sample
+
+docker compose up -d
+
+typescript 実行するなら
+
+/app# ./node_modules/.bin/ts-node src/ts/**.ts
+
+or
+
+cd dist
+
+npx tsc
+
+参照：
+https://qiita.com/mangano-ito/items/75e65071c9c482ddc335
+
+## web_server 説明
 
 $ cd web_server
 
